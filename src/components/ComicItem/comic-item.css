@@ -1,0 +1,40 @@
+.itemComicContainer{
+	position: relative;
+	margin: .5em 0;
+	padding: .0 .75em;
+}
+.itemComicContainer a{
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.itemComicCoverWrapper{
+	position: relative;
+	overflow: hidden;
+}
+
+.itemComicCoverWrapper img{
+	width: 100%;
+	border-radius: 8px;
+}
+
+.itemComicCoverWrapper .comicCoverLabel{
+	position: absolute;
+	top: 16px;
+	left: 0px;
+	color: white;
+	background: blue;
+	font-size: 12px;
+	padding: .25em .5em;
+	border-radius: 0 4px 4px 0;
+}
+
+.itemComicContainer .titleWrapper{
+	width: 100%;
+}
+.itemComicContainer .titleWrapper p{
+	font-weight: bolder;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
